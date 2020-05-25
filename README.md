@@ -41,7 +41,7 @@ uncomment the part between **partial lines** and `python3` for running
 
 | signal | meaning |
 | `# =======================================================` | partial lines |
-| first `##` | tag of the part |
-| second `##` (if possible) | file name |
+| `##` | tag of the part |
+| `@` (if possible) | file name |
 
 ## MIT License
