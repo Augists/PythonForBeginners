@@ -29,7 +29,7 @@ git clone https://github.com/Augists/PythonForBeginners.git
 
 ```
 
-or just read `*.py` files
+or **download zip**
 
 ---
 
@@ -40,6 +40,7 @@ uncomment the part between **partial lines** and `python3` for running
 ## SIGNAL
 
 | signal | meaning |
+| ------ | ------- | 
 | `# =======================================================` | partial lines |
 | `##` | tag of the part |
 | `@` (if possible) | file name |
