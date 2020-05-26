@@ -33,7 +33,7 @@ or **download zip**
 
 ---
 
-uncomment the part between **partial lines** and `python3` for running
+uncomment the part between **delimiters** and `python3` for running
 
 ---
 
@@ -41,7 +41,7 @@ uncomment the part between **partial lines** and `python3` for running
 
 | signal | meaning |
 | ------ | ------- | 
-| `# =======================================================` | partial lines |
+| `# =======================================================` | delimiters |
 | `##` | tag of the part |
 | `@` (if possible) | file name |
 
