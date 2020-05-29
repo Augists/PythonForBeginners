@@ -44,7 +44,7 @@ uncomment the part between **delimiters** and `python3` for running
 | signal | meaning |
 | ------ | ------- |
 | `# =======================================================` | delimiters |
-| `##` | tag of the part |
+| `##` | tab of the part |
 | `@` (if possible) | file name |
 
 ## MIT License
