@@ -129,22 +129,79 @@
 
 # ==================================================
 ## for in dictionary.key (omit)
-favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
-}
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
 
-friends = ['phil', 'sarah']
-for name in favorite_languages.keys():    # also for name in favorite_languages:
-    print(name.title())
+# friends = ['phil', 'sarah']
+# for name in favorite_languages.keys():    # also for name in favorite_languages:
+#     print(name.title())
 
-    if name in friends:
-        print(" Hi " + name.title() +
-                ", I see your favorite language is " +
-                favorite_languages[name].title() + "!")
+#     if name in friends:
+#         print(" Hi " + name.title() +
+#                 ", I see your favorite language is " +
+#                 favorite_languages[name].title() + "!")
 
 
+# ==================================================
+## if not in key
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+
+# if 'erin' not in favorite_languages.keys():
+#     print("Erin, please take our poll!")
+
+
+# ==================================================
+## for in sorted dictionary
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+
+# for name in sorted(favorite_languages.keys()):
+#     print(name.title() +
+#             ", thank you for taking the poll.")
+
+
+# ==================================================
+## for in dictionary.values
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+
+# print("The following languages have been mentioned:")
+# for language in favorite_languages.values():
+#     print(language.title())
+
+
+# ==================================================
+## for in dictionary.values in set
+# favorite_languages = {
+#     'jen': 'python',
+#     'sarah': 'c',
+#     'edward': 'ruby',
+#     'phil': 'python',
+# }
+
+# print("The following languages have been mentioned:")
+# for language in set(favorite_languages.values()):   # remove the same
+#     print(language.title())
+
+
+# ==================================================
+# ==================================================
 # ==================================================
 # ==================================================
