@@ -47,4 +47,42 @@ uncomment the part between **delimiters** and `python3` for running
 | `##` | tab of the part |
 | `@` (if possible) | file name |
 
+## CHAPTER
+
+### 2
+
+varible and simple data type
+
+### 3
+
+list
+
+### 4
+
+operate list
+
+### 5
+
+if
+
+### 6
+
+dictionary
+
+### 7
+
+input and while
+
+### 8
+
+function
+
+### 9
+
+class
+
+### 10
+
+file
+
 ## MIT License
