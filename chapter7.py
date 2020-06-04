@@ -123,10 +123,67 @@
 
 
 # ==================================================
+## continue @ counting.py
+# current_number = 0
+# while current_number < 10:
+#     current_number += 1
+
+#     if current_number % 2 == 0:
+#         continue
+
+#     print(current_number)
+
+
 # ==================================================
+## avoid  countless @ counting.py
+# x = 1
+# while x <= 5:
+#     print(x)
+#     x += 1  # error without this line
+
+
 # ==================================================
+## while in list @ confirmed_users.py
+# unconfirmed_users = ['alice', 'brian', 'candace']
+# confirmed_users = []
+
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+
+#     print("Verifying user: " + current_user.title())
+#     confirmed_users.append(current_user)
+
+# print("\nThe following users have been confirmed:")
+# for confirmed_users in confirmed_users:
+#     print(confirmed_users.title())
+
+
 # ==================================================
+## while 'xxx' in @ pets.py
+# pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+# print(pets)
+
+# while 'cat' in pets:
+#     pets.remove('cat')
+
+# print(pets)
+
+
 # ==================================================
-# ==================================================
-# ==================================================
-# ==================================================
+## full dictionary with user input @ mountain_poll.py
+# responses = {}
+# polling_active = True
+
+# while polling_active:
+#     name = input("\nWhat is your name? ")
+#     response = input("Which mountain would you like to climb someday? ")
+
+#     responses[name] = response
+
+#     repeat = input("Would you like to let another person respond?(yes / no)")
+#     if repeat == 'no':
+#         polling_active = False
+
+# print("\n--- Poll Results ---")
+# for name, response in responses.items():
+#     print(name + " would like to climb " + response + ".")
