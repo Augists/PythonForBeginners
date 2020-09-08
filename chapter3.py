@@ -77,7 +77,7 @@
 # motorcycles = ['honda', 'yamaha', 'suzuki']
 
 # first_woned = motorcycles.pop(0)
-# print("THe first motorcycle I owned was a " + first_woned.title() + '.')
+# print("The first motorcycle I owned was a " + first_woned.title() + '.')
 
 
 # ==================================================
@@ -138,7 +138,7 @@
 
 
 # ==================================================
-## lengthA of the list
+## length of the list
 # cars = ['bmw', 'audi', 'toyota', 'subaru']
 # print(len(cars))
 
