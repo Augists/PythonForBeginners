@@ -23,7 +23,7 @@
 ## for x & action x
 # magicians = ['alice', 'david', 'carolina']
 # for magician in magicians:
-#     print(magician.title() + ", that was a great trick!")
+#     print(magician.title() + ", that was a great trick!")     #The title() method returns a string where the first character in every word is upper case.
 #     print("I can't wait to see your next trick, " + magician.title() + ".\n")
 # print("Thank you, everyone. That was a great magic show!")
 
