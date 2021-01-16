@@ -17,7 +17,12 @@
 # cars = ['audi', 'bmw', 'subaru', 'toyota']
 
 # for car in cars:
-#     if car == 'bmw':      # double '==' is used for comparing an object or variable to a specific value or another object or variable
+#     '''
+#     double '==' is used for comparing
+#     an object or variable to a specific
+#     value or another object or variable
+#     '''
+#     if car == 'bmw':
 #         print(car.upper())
 #     else:
 #         print(car.title())
