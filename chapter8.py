@@ -127,7 +127,7 @@
 #     person = {'first': first_name, 'last': last_name}
 #     return person
 
-# musician =build_person('jimi', 'hendrix')
+# musician = build_person('jimi', 'hendrix')
 # print(musician)
 
 
@@ -193,7 +193,7 @@
 
 
 # ==================================================
-## @ pizza.py
+## * for tuple @ pizza.py
 # def make_pizza(*toppings):
 #     print(toppings)
 
@@ -212,7 +212,7 @@
 
 
 # ==================================================
-## @ user_profile.py
+## ** for dictionary @ user_profile.py
 # def build_profile(first, last, **user_info):  # empty dictionary
 #     """ create a dictionary including everything we know about user """
 #     profile = {}
@@ -228,7 +228,7 @@
 
 
 # ==================================================
-## import
+## import module
 # @ pizza.py
 # def make_pizza(size, *toppings):
 #     print("\nMaking a " +str(size) + "-inch pizza with the following toppings:")
@@ -238,21 +238,33 @@
 # @ making_pizzas.py
 # import pizza
 
-# pizza.make_pizza(16, 'pepperoni')
+# pizza.make_pizza(16, 'pepperoni') # `pizza.`
 # pizza.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
 
 # ==================================================
 ## import function
-# from module_name import function_name
+# from module_name import function_name @ making_pizzas.py
+# from pizza import make_pizza
+
+# make_pizza(16, 'pepperoni')       # no `pizza.`
+# make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
 
 # ==================================================
 ## alias function
 # from pizza import make_pizza as mp
 
-# mp(16, 'pepperoni')
+# mp(16, 'pepperoni')               # no `pizza.`
 # mp(12, 'mushrooms', 'green peppers', 'extra cheese')
+
+
+# ==================================================
+## alias module
+# import pizza as p
+
+# p.make_pizza(16, 'pepperoni')
+# p.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
 
 
 # ==================================================
